@@ -138,21 +138,6 @@ import json
 # Example JSON string
 json_string = '{"name": "Alice", "age": 30, "city": "New York"}'
 
-# Parse JSON string into a Python dictionary
-data = json.loads(json_string)
-print(data["name"])  # Output: Alice
-
-# Create a Python dictionary
-person = {
-  "firstName": "Bob",
-  "lastName": "Smith",
-  "age": 25
-}
-
-# Convert Python dictionary to a JSON string
-json_data = json.dumps(person, indent=2)  # indent for pretty printing
-print(json_data)
-
 **Conclusion:**
 
 JSON's simplicity, readability, and widespread support have made it the dominant data-interchange format on the web. Understanding its core concepts, data types, rules, and best practices is crucial for any web developer or software engineer.  Tools like JSON Schema help to overcome some of its limitations and ensure data quality.
