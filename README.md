@@ -152,7 +152,6 @@ person = {
 # Convert Python dictionary to a JSON string
 json_data = json.dumps(person, indent=2)  # indent for pretty printing
 print(json_data)
-```
 
 **Conclusion:**
 
