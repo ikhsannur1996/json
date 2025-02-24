@@ -135,7 +135,7 @@ Python provides the `json` module for working with JSON data:
 
 import json
 
-# Example JSON string
+**Example JSON string**
 json_string = '{"name": "Alice", "age": 30, "city": "New York"}'
 
 **Conclusion:**
